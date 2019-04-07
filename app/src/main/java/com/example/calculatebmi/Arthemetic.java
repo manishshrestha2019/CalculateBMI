@@ -28,7 +28,7 @@ public class Arthemetic {
 
     public float getBIM(){
         float convertMeter=height/100;
-        float bim=weight/convertMeter*convertMeter;
+        float bim=weight/(convertMeter*convertMeter);
         return bim;
     }
 
