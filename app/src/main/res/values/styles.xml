@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="textSt">
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#C00808</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

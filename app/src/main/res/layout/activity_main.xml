@@ -5,19 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#0A8E9C">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        >
+                >
 
         <TextView
+            style="@style/textSt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Your Height" />
+            android:text="Your Height"
+            android:layout_marginLeft="10dp"/>
 
         <EditText
             android:id="@+id/etHeight"
@@ -30,7 +33,6 @@
 
     </LinearLayout>
     <TextView
-
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,13 +45,18 @@
         >
 
         <TextView
+            style="@style/textSt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Your Weight"
-            android:inputType="numberDecimal"/>
+            android:layout_marginLeft="10dp"
+
+
+            />
 
         <EditText
+            android:inputType="numberDecimal"
             android:id="@+id/etWeight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -71,18 +78,23 @@
         android:textAlignment="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Compute BMI"/>
+        android:text="Compute BMI"
+        android:textColor="#0B665B"
+        />
     <TextView
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your BMI"/>
+        android:text="Your BMI"
+        style="@style/textSt"/>
     <TextView
         android:layout_gravity="center"
         android:id="@+id/tvOut"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        style="@style/textSt"/>
+
         />
 
 
