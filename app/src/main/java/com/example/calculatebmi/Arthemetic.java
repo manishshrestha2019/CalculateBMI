@@ -1,3 +1,5 @@
+package com.example.calculatebmi;
+
 public class Arthemetic {
 
 
